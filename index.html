@@ -10,25 +10,29 @@
     <title>Moja strona!</title>
     <link rel="icon" type="image/png" href="niszogen.png"/>
   <link rel="stylesheet" href="./style.css">
-  <meta name="google-site-verification" content="-j6biMwNNslj0yR3NdgltUUW1NWpY0yrMsZ5WLnxKpA" />
   </head>
   <body>
-    <nav>
-    <button class="hamburger">
-      <span class="hamburger__box">
-        <span class="hamburger__inner"></span>
-      </span>
-    </button>
-    <div class="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item"><a href="index.html">Strona Główna</a></li>
-        <li class="navigation__item"><a href="bot.html">Bot</a></li>
-        <li class="navigation__item"><a href="stream.html">Stream</a></li>
-        <li class="navigation__item">Tymczasowo są problemy z nawigatorem staram się je naprawiać!</li>
-      </ul>
-    </div>
-    <script  src="./script.js"></script>
-  </nav>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="niszogen.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        NISZOgen
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Strona główna <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bot.html">Bot</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="stream.html">Stream</a>
+      </li>
+    </ul>
+    </nav>
       <div class="jumbotron">
         <div class="container">
             <h1>Siema ja jestem niszogen!</h1>
