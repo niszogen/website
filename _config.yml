@@ -37,5 +37,9 @@ version: 3.0.0
 
 # Navbar page list
 nav:
+  - title: Bot
+    url: /bot
+    
   - title: Blog
     url: /archive
+

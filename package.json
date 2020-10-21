@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "bundle exec jekyll serve"
+    "run": "bundle exec jekyll serve",
+    "runsps": "serve ./_site"
   },
   "author": "",
   "license": "ISC"
