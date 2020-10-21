@@ -5,6 +5,5 @@ gem "jekyll-gist"
 gem "jekyll-paginate"
 gem "jekyll-seo-tag"
 gem 'jekyll-language-plugin'
-gem "jekyll-youtube"
 gem 'jekyll-sitemap'
 gem 'jekyll-analytics'
