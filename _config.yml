@@ -10,6 +10,14 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-youtube
+  - jekyll-sitemap
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-148490540-3         # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 # Optimize Jekyll
 exclude:
@@ -42,4 +50,6 @@ nav:
     
   - title: Blog
     url: /archive
-
+  
+  - title: Najnowszy film
+    url: /yt
