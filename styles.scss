@@ -1,0 +1,67 @@
+$text-color: white;
+$nav-con-bg: #151515;
+
+@keyframes appear {
+  from {
+    opacity: 0;
+ }
+  to {
+    opacity: 1;
+ }
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #151515;
+  color: $text-color;
+  text-align: center;
+  margin: 2%;
+  min-width: 95%;
+  animation-name: appear;
+  animation-duration: 0.75s;
+}
+
+.logo {
+  width: 325px;
+  height: 325px;
+}
+
+a:link {
+  color: $text-color;
+}
+
+a:visited {
+  color: $text-color;
+}
+
+#navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: $nav-con-bg; 
+} 
+ 
+#navbar ul li {  
+	display: inline; 
+} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #181818; 
+} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+} 

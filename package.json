@@ -1,0 +1,11 @@
+{
+  "name": "dark-poole-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "bundle exec jekyll serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
