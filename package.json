@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "run": "bundle exec jekyll serve",
-    "runsps": "serve ./_site"
+    "run-sps": "serve ./_site",
+    "run-bs": "cd _site && browser-sync start --server"
   },
-  "author": "",
+  "author": "NISZOgen",
   "license": "ISC"
 }

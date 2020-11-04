@@ -10,7 +10,6 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-youtube
   - jekyll-sitemap
   - jekyll-analytics
 
