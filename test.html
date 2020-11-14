@@ -1,0 +1,17 @@
+---
+layout: default
+title: test
+---
+
+<script>
+    tinymce.init({
+      selector: '#mytextarea',
+      plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+    });
+</script>
+
+<form method="post">
+    <textarea id="mytextarea" name="mytextarea">
+      Hello, World!
+    </textarea>
+</form>
