@@ -62,3 +62,11 @@ a:visited {
   color: #000;
   background-color: #fff;
 }
+
+.disqus_thread {
+  max-width: 40vw;
+}
+
+.comments {
+  max-width: 40vw;
+}
