@@ -1,6 +1,6 @@
 # Setup
 title: NISZOgen
-url: https://niszogen.github.io
+url: https://niszogen.com
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -14,9 +14,9 @@ plugins:
   - jekyll-analytics
 
 jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: UA-148490540-3         # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+  GoogleAnalytics:
+    id: UA-148490540-3
+    anonymizeIp: false
 
 # Optimize Jekyll
 exclude:
@@ -25,10 +25,6 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-
-sass:
-  sass_dir: _scss
-  style: :compressed
 
 # Options
 
@@ -51,4 +47,4 @@ nav:
     url: /archive
   
   - title: Najnowszy film
-    url: /yt
+    url: /2020/10/16/Graf/
