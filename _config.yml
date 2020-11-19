@@ -1,0 +1,50 @@
+# Setup
+title: NISZOgen
+url: https://niszogen.com
+paginate: 1
+baseurl: ""
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-148490540-3
+    anonymizeIp: false
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: NISZOgen
+
+# Custom vars
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: Bot
+    url: /bot
+    
+  - title: Blog
+    url: /archive
+  
+  - title: Najnowszy film
+    url: /2020/10/16/Graf/

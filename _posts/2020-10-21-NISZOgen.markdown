@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Pierwszy post"
+date:   2020-10-21 14:14:00 +0200
+---
+Nwm co tu napisać, więc niech będzie nic.
+
+No dobra macie tu coś
+
+```javascript
+var siema  = 'elo';
+```

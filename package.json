@@ -1,0 +1,14 @@
+{
+  "name": "dark-poole-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll b",
+    "run-sps": "serve ./_site",
+    "run-bs": "cd _site && browser-sync start --server"
+  },
+  "author": "NISZOgen",
+  "license": "ISC"
+}
