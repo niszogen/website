@@ -56,6 +56,14 @@ body {
   border-right: 2px dotted #666666;
 }
 
+#sidebar a:link {
+  color: white;
+}
+
+#sidebar a:visited {
+  color: white;
+}
+
 #content {
   float: left;
   padding: 40px;
