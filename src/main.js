@@ -1,6 +1,9 @@
-import './assets/style.css'
+import { inject } from "@vercel/analytics";
+inject();
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import "./assets/style.css";
 
-createApp(App).mount('#app')
+import { createApp } from "vue";
+import App from "./App.vue";
+
+createApp(App).mount("#app");
