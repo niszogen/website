@@ -4,5 +4,5 @@
 </script>
 
 <template>
-    <i class="fa-regular fa-copyright"></i> NISZOgen {{ year }}. Licensed under the <a href="https://github.com/niszogen/website/LICENSE">GPLv3 License</a>.
+    <i class="fa-regular fa-copyright"></i> NISZOgen {{ year }}. Licensed under the <a href="https://github.com/niszogen/website/LICENSE">GPL-3.0 License</a>.
 </template>
