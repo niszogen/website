@@ -1,29 +1,33 @@
 [
-
-    {
-        "url":"https://twitter.com/niszogenn",
-        "class":"fa-brands fa-twitter",
-        "text":"Twitter"
-    },
-    {
-        "url":"https://github.com/niszogen/",
-        "class":"fa-brands fa-github",
-        "text":"Github"
-    },
-    {
-        "url":"https://wetdry.world/@niszogen",
-        "class":"fa-brands fa-mastodon",
-        "text":"Mastodon"
-    },
-    {
-        "url":"https://www.flickr.com/photos/200877726@N06/",
-        "class":"fa-solid fa-camera",
-        "text":"Photography"
-    },
-    {
-        "url":"https://t.me/niszogenn",
-        "class":"fa-brands fa-telegram",
-        "text":"Telegram"
-    }
-
+  {
+    "url": "https://twitter.com/niszogenn",
+    "class": "fa-brands fa-twitter",
+    "text": "Twitter"
+  },
+  {
+    "url": "https://bsky.app/profile/niszogen.com",
+    "class": "fa-brands fa-bluesky",
+    "text": "Bluesky"
+  },
+  {
+    "url": "https://wetdry.world/@niszogen",
+    "class": "fa-brands fa-mastodon",
+    "text": "Mastodon"
+  },
+  {
+    "url": "https://github.com/niszogen/",
+    "class": "fa-brands fa-github",
+    "text": "Github"
+  },
+  {
+    "url": "https://www.flickr.com/photos/200877726@N06/",
+    "class": "fa-solid fa-camera",
+    "text": "Photography"
+  },
+  {
+    "url": "https://t.me/niszogenn",
+    "class": "fa-brands fa-telegram",
+    "text": "Telegram"
+  }
 ]
+

@@ -1,0 +1,47 @@
+@mixin hover-animation($color) {
+  transition: filter 0.3s ease-in-out;
+
+  &:hover {
+    filter: drop-shadow(0 0 2em $color);
+    border-color: $color;
+  }
+}
+
+@mixin hover-animation($color) {
+  transition: filter 0.3s ease-in-out;
+
+  &:hover {
+    filter: drop-shadow(0 0 2em $color);
+    border-color: $color;
+  }
+}
+
+.twitter {
+  @include hover-animation(#1DA1F2);
+}
+
+.bluesky {
+  @include hover-animation(#1185fe);
+}
+
+.mastodon {
+  @include hover-animation(#6364ff);
+}
+
+.github {
+  @include hover-animation(#fafbfc);
+}
+
+.photography {
+  @include hover-animation(#ff0084);
+}
+
+.telegram {
+  @include hover-animation(#24A1DE);
+}
+
+@media (prefers-color-scheme: light) {
+  .github {
+    @include hover-animation(#24292e);
+  }
+}
