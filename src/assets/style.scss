@@ -72,7 +72,10 @@ button:hover {
 }
 
 .links {
-  padding: 2em;
+	padding-top: 1em;
+	padding-bottom: 1.75em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .copyright {
@@ -81,6 +84,11 @@ button:hover {
 
 .location {
   font-size: 20px;
+  margin: 0.5em;
+}
+
+button i, p.location i {
+  margin-right: 0.1em;
 }
 
 button {
@@ -97,7 +105,6 @@ button {
   transition: border-color 0.25s;
   margin-bottom: 0.75em;
 }
-
 
 button:focus,
 button:focus-visible {
