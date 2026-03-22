@@ -5,6 +5,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    __BUILD_YEAR__: new Date().getFullYear(),
+  },
   plugins: [
     vue(),
   ],

@@ -1,6 +1,5 @@
 <script setup>
-    const date = new Date();
-    const year = date.getFullYear();
+    const year = __BUILD_YEAR__;
 </script>
 
 <template>
