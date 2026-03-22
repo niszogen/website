@@ -5,16 +5,6 @@
     "text": "Twitter"
   },
   {
-    "url": "https://bsky.app/profile/niszogen.com",
-    "class": "fa-brands fa-bluesky",
-    "text": "Bluesky"
-  },
-  {
-    "url": "https://wetdry.world/@niszogen",
-    "class": "fa-brands fa-mastodon",
-    "text": "Mastodon"
-  },
-  {
     "url": "https://github.com/niszogen/",
     "class": "fa-brands fa-github",
     "text": "Github"
