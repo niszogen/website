@@ -23,9 +23,6 @@ importers:
       '@fortawesome/vue-fontawesome':
         specifier: ^3.1.3
         version: 3.1.3(@fortawesome/fontawesome-svg-core@6.7.2)(vue@3.5.30)
-      '@vercel/analytics':
-        specifier: ^1.6.1
-        version: 1.6.1(vue@3.5.30)
       vue:
         specifier: ^3.5.30
         version: 3.5.30
@@ -473,32 +470,6 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@vercel/analytics@1.6.1':
-    resolution: {integrity: sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg==}
-    peerDependencies:
-      '@remix-run/react': ^2
-      '@sveltejs/kit': ^1 || ^2
-      next: '>= 13'
-      react: ^18 || ^19 || ^19.0.0-rc
-      svelte: '>= 4'
-      vue: ^3
-      vue-router: ^4
-    peerDependenciesMeta:
-      '@remix-run/react':
-        optional: true
-      '@sveltejs/kit':
-        optional: true
-      next:
-        optional: true
-      react:
-        optional: true
-      svelte:
-        optional: true
-      vue:
-        optional: true
-      vue-router:
-        optional: true
-
   '@vitejs/plugin-vue@5.2.4':
     resolution: {integrity: sha512-7Yx/SXSOcQq5HiiV3orevHUFn+pmMB4cgbEkDYgnkUWb0WfeQ/wa2yFv6D5ICiCQOVpjA7vYDXrC7AGO8yjDHA==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -930,10 +901,6 @@ snapshots:
     optional: true
 
   '@types/estree@1.0.8': {}
-
-  '@vercel/analytics@1.6.1(vue@3.5.30)':
-    optionalDependencies:
-      vue: 3.5.30
 
   '@vitejs/plugin-vue@5.2.4(vite@6.4.1(sass@1.98.0))(vue@3.5.30)':
     dependencies:
