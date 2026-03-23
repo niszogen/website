@@ -4,6 +4,11 @@ dist/
 # generated types
 .astro/
 
+# wrangler files
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+
 # dependencies
 node_modules/
 
