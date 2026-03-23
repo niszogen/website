@@ -1,5 +1,5 @@
 <script setup>
-    const year = 2026;
+    const year = new Date().getFullYear();
 </script>
 
 <template>
