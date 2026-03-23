@@ -2,5 +2,10 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "astrowebsite",
   "compatibility_date": "2026-03-23",
-  "pages_build_output_dir": "./dist"
+  "build": {
+    "command": "pnpm build"
+  },
+  "assets": {
+    "directory": "./dist"
+  }
 }
