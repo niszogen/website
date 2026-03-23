@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "astrowebsite",
+  "name": "website",
   "compatibility_date": "2026-03-23",
   "build": {
     "command": "pnpm build"
